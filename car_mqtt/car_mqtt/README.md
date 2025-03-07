@@ -1,10 +1,8 @@
-**摘要**：本文介绍如何使用MQTT协议实现远程控制OpenHarmony小车，可以实现远程异地控制OpenHarmony小车
+**摘要**：本文介绍如何远程控制OpenHarmony小车
 
 **适合群体**：适用于润和Hi3861开发板
 
-文中所有代码仓库：https://gitee.com/qidiyun/hihope-3861-smart-home-kit 
-
- 
+文中所有代码仓库：[[https://gitee.com/qidiyun/hihope-3861-smart-home-kit]
 
 ## 1 小车介绍
 
@@ -15,11 +13,6 @@
 小车安装完大概是这样：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/3e2bf6202ffa4d2a882cece10c5ed814.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6L-e5b-X5a6J55qE5Y2a5a6i,size_20,color_FFFFFF,t_70,g_se,x_16)
 
-整个通信框架如下：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/cb4cb58fd5a84060be90d51bdad9f68a.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6L-e5b-X5a6J55qE5Y2a5a6i,size_20,color_FFFFFF,t_70,g_se,x_16)
-其中，我们使用的是通用的MQTT云，地址：test.mosquitto.org
-
- 
 
 ## 2 如何使用
 

@@ -8,12 +8,6 @@
 
 基于鸿蒙系统 + Hi3861 的WiFi小车
 
-首先，我们得有一套WiFi小车套件，其实也是Hi3861 加上电机、循迹模块、超声波等模块。
-
-小车安装完大概是这样：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/3e2bf6202ffa4d2a882cece10c5ed814.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6L-e5b-X5a6J55qE5Y2a5a6i,size_20,color_FFFFFF,t_70,g_se,x_16)
-
-
 ## 2 如何使用
 
 ### （1）下载MQTT软件包

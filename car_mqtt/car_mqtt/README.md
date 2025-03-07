@@ -23,23 +23,12 @@ MQTT 是当前最主流的物联网通信协议，需要物联网云平台，例
 
 将下载后的文件放到 third_party 下并重命名为 pahomqtt
 
-### （2）使能PWM功能
-要使用pwm功能，我们需要修改 
+### （2）移植car_mqtt包
+将car_mqtt文件移植到app目录下，调整外层的BUILD.gn的调用即可。
 
-device/soc/hisilicon/hi3861v100/sdk_liteos/build/config/usr_config.mk
+### （3）小车热点设置
 
-增加这两行，这里是打开PWM功能
-```c
-CONFIG_PWM_SUPPORT=y
-
-CONFIG_PWM_HOLD_AFTER_REBOOT=y
-```
-
-![OpenHarmony轻量系统开发【13】鸿蒙小车开发-鸿蒙HarmonyOS技术社区](https://img-blog.csdnimg.cn/53a465da64cf4c90971d92c57789574b.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA6L-e5b-X5a6J55qE5Y2a5a6i,size_17,color_FFFFFF,t_70,g_se,x_16)
-### （3）小车热点
-注意，我这里WiFi小车固件默认连接热点的ssid是：
-![OpenHarmony轻量系统开发【13】鸿蒙小车开发-鸿蒙HarmonyOS技术社区](https://img-blog.csdnimg.cn/b9a663380c434f9ea5420d487e8eb9b5.png)
 需要自己修改成自己的热点。
 
 ### （3）PC上位机下载
-PC上位机采用C#开发，使用MQTT协议通信，下载地址 https://gitee.com/qidiyun/hihope-3861-smart-home-kit/tree/master/car_mqtt 
+PC上位机采用C#开发，源码随后上传。 

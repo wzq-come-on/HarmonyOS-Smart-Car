@@ -2,7 +2,7 @@
 
 **适合群体**：适用于润和Hi3861开发板
 
-文中所有代码仓库：[[https://gitee.com/qidiyun/hihope-3861-smart-home-kit]
+文中所有代码仓库：[https://github.com/wzq-come-on/HarmonyOS-Smart-Car.git]
 
 ## 1 小车介绍
 
